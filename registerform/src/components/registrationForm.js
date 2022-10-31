@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import {Button} from 'react-bootstrap';
 import './style.css'
 function RegistrationForm() {
     return(
@@ -22,6 +23,14 @@ function RegistrationForm() {
           <div class="footer">
               <button type="submit" class="btn">Register</button>
           </div>
+         {/* <div>
+             <Button
+          className="text-capitalize"
+          variant={theme ? theme : "secondary"}
+        >
+          {theme ? theme : "Default"}
+        </Button>
+        </div> */}
       </div>      
     )       
 }
